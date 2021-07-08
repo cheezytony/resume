@@ -1,0 +1,25 @@
+git
+
+npm
+composer
+
+figma
+whimsical
+
+jira
+asana
+
+slack
+discord
+
+html
+pug
+laravel blade
+
+
+
+sublime text
+vs code
+dream weaver
+
+

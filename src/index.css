@@ -1,13 +1,73 @@
+:root {
+  --border-radius-sm: .25rem;
+  --color-border: rgb(203, 217, 223);
+  --color-accent: #007bff;
+  --color-accent-light: #77b9ff;
+  --color-accent-lighter: #c0dcfa;
+  --color-accent-dark: #1a508a;
+  --color-gray: rgb(135, 136, 138);
+  --color-gray-lighter: rgb(242, 244, 248);
+  font-size: 14px;
+}
+/* @media (min-width: 425px) {
+  :root {
+    font-size: 1.45vw;
+  }
+} */
+@media (min-width: 425px) and (max-width: 1040px) {
+  :root {
+    font-size: 1.45vw;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Rajdhani", Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 2rem;
+  margin: 0;
+}
+@media (min-width: 425px) {
+  body {
+    background-image: linear-gradient(to left, var(--color-gray-lighter) 50%, #fff 50%);
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.85rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0 0 1em;
+}
+
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
 }

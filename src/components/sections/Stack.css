@@ -1,0 +1,32 @@
+.app__stack {
+  border-collapse: collapse;
+  width: 100%;
+}
+.app__stack td {
+  padding: .25rem 0;
+}
+.app__stack td:first-child {
+  padding-right: 1rem;
+}
+.app__stack td:last-child {
+  padding-left: 4rem;
+  width: 100%;
+}
+.app__stack__item__title {
+  align-items: center;
+  display: flex;
+  gap: .1rem;
+  text-transform: uppercase;
+}
+.app__stack__item__title__language {
+  font-weight: 400;
+}
+.app__stack__item__title__framework {
+  color: var(--color-accent-light);
+  font-weight: 600;
+  margin-left: auto;
+}
+.app__stack__item__title__framework::before {
+  content: '⋅';
+  margin-right: .1rem;
+}

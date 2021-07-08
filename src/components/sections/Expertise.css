@@ -1,0 +1,22 @@
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+ul > li {
+  line-height: 1.5;
+  margin-bottom: 0.25rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+ul > li:before {
+  background: var(--color-accent-lighter);
+  border-radius: 999px;
+  content: '';
+  display: block;
+  height: .5rem;
+  left: 0;
+  position: absolute;
+  top: .5em;
+  width: .5rem;
+}

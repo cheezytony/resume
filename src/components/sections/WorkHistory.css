@@ -1,0 +1,52 @@
+.app__work__history {
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+}
+.app__work__history__item {
+  position: relative;
+}
+.app__work__history__item h4,
+.app__work__history__item h5,
+.app__work__history__item h6 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+.app__work__history__item__title {
+  align-items: baseline;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.app__work__history__item__date {
+  display: flex;
+  flex-flow: row;
+  gap: .25rem;
+}
+.app__work__history__item h4 {
+  color: var(--color-accent);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 0.25em;
+  text-transform: uppercase;
+}
+.app__work__history__item h5 {
+  font-weight: 700;
+  margin-bottom: 0.25em;
+  text-transform: uppercase;
+}
+.app__work__history__item h6 {
+  color: var(--color-accent-light);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.app__work__history__item__position {
+  display: block;
+}
+.app__work__history__item__position:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
+.app__work__history__item__position p {
+  margin-bottom: 0;
+}
