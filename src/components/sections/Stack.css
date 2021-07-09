@@ -9,7 +9,7 @@
   padding-right: 1rem;
 }
 .app__stack td:last-child {
-  padding-left: 4rem;
+  padding-left: 1rem;
   width: 100%;
 }
 .app__stack__item__title {
@@ -29,4 +29,9 @@
 .app__stack__item__title__framework::before {
   content: '⋅';
   margin-right: .1rem;
+}
+@media (min-width: 425px) {
+  .app__stack td:last-child {
+    padding-left: 4rem;
+  }
 }

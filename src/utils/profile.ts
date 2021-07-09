@@ -54,7 +54,7 @@ const profile: Profile = {
       "icon": "logo-linkedin",
       "title": "LinkedIn",
       "userName": "Antonio Okoro",
-      "url": "https://github.com/cheezytony"
+      "url": "https://www.linkedin.com/in/antonio-okoro"
     },
     {
       "icon": "logo-facebook",
@@ -84,21 +84,25 @@ const profile: Profile = {
   "expertise": [
     {
       "title": "Senior Frontend Engineer",
+      "noun": "Frontend Engineering",
       "proficiency": 93,
       "startedAt": "2014"
     },
     {
       "title": "Senior Backend Engineer",
+      "noun": "Backend Engineering",
       "proficiency": 80,
       "startedAt": "2015"
     },
     {
       "title": "UI/UX Developer",
+      "noun": "UI/UX Development",
       "proficiency": 65,
       "startedAt": "2019"
     },
     {
       "title": "Product Manager",
+      "noun": "Product Managing",
       "proficiency": 45,
       "startedAt": "2020"
     }

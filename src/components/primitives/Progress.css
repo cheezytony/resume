@@ -1,16 +1,25 @@
 .progress {
   display: flex;
   flex-flow: row;
-  gap: .5rem;
+  gap: .35rem;
   width: 100%;
 }
 .progress__dot {
   border: 1px solid var(--color-accent-light);
   border-radius: 999px;
   display: inline-block;
-  height: .75rem;
-  width: .75rem;
+  height: .64rem;
+  width: .64rem;
 }
 .progress__dotted {
   background: var(--color-accent-light);
+}
+@media (min-width: 425px) {
+  .progress {
+    gap: .5rem;
+  }
+  .progress__dot {
+    height: .74rem;
+    width: .74rem;
+  }
 }

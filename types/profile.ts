@@ -11,6 +11,7 @@ export type Email = {
 
 export type Expertise = {
   title: string,
+  noun: string,
   proficiency: number,
   startedAt: string,
 }
