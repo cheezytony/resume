@@ -31,8 +31,9 @@ export type Interest = {
 
 export type Job = {
   company: Company,
+  isFreelance?: boolean
   joinedAt: string,
-  leftAt: string | undefined,
+  leftAt?: string,
   positions: Position[],
   projects: Project[],
 }

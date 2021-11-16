@@ -15,6 +15,10 @@ const profile: Profile = {
       "type": "primary"
     },
     {
+      "address": "cheezytony17@gmail.com",
+      "type": "primary"
+    },
+    {
       "address": "antonio.o@credpal.com",
       "type": "professional"
     },
@@ -24,6 +28,12 @@ const profile: Profile = {
     }
   ],
   "phones": [
+    {
+      "number": "8105844849",
+      "country": "Nigeria",
+      "countryCode": "+234",
+      "type": "primary"
+    },
     {
       "number": "9027286158",
       "country": "Nigeria",
@@ -39,7 +49,7 @@ const profile: Profile = {
   ],
   "website": {
     "title": "Antonio",
-    "url": "https://antonio-okoro.netlify.app",
+    "url": "https://antonio-okoro.vercel.app",
     "repository": "https://github.com/cheezytony/portfolio",
     "launchedAt": "2021"
   },
@@ -82,6 +92,12 @@ const profile: Profile = {
     }
   ],
   "expertise": [
+    {
+      "title": "Fullstack Web Developer",
+      "noun": "Software Engineering",
+      "proficiency": 93,
+      "startedAt": "2014"
+    },
     {
       "title": "Senior Frontend Engineer",
       "noun": "Frontend Engineering",
@@ -176,7 +192,7 @@ const profile: Profile = {
       "framework": "Vue3",
       "proficiency": 75,
       "startedAt": "2021",
-      "isMainStack": true
+      "isMainStack": false
     },
     {
       "language": "Nodejs",
@@ -190,14 +206,14 @@ const profile: Profile = {
       "framework": "Sailsjs",
       "proficiency": 50,
       "startedAt": "2020",
-      "isMainStack": true
+      "isMainStack": false
     },
     {
       "language": "Nodejs",
       "framework": "Adonis",
-      "proficiency": 100,
+      "proficiency": 75,
       "startedAt": "2021",
-      "isMainStack": false
+      "isMainStack": true
     },
     {
       "language": "CSS",
@@ -273,28 +289,29 @@ const profile: Profile = {
           "title": "CredPal Website",
           "url": "https://credpal.com",
           "contributions": [
-            "Worked hand in hand with a highly skilled UI/UX developer to deliver amazing aesthetics",
-            "Built from the ground up using Vuejs and tailwindcss",
-            "Maximum optimzation for responsiveness and ease of use accross all devices"
+            "Landing page website",
+            "Built with Laravel, Vuejs and Tailwindcss",
+            "Accessible and SEO friendly"
           ]
         },
-        {
-          "title": "CredPal Web App",
-          "url": "https://app.credpal.com",
-          "contributions": [
-            "Built using Laravel, Vuejs and Tailwindcss",
-            "Involved in the development of the front and backend systems",
-            "Constantly improved the app, based on user feedback",
-            "Created a component-based system with easily reusable and readable code"
-          ]
-        },
-        {
-          "title": "CredPal POS",
-          "url": "https://pos.credpal.com",
-          "contributions": [
-            "Built the app using Laravel, Vuejs and Bootstrap"
-          ]
-        }
+        // {
+        //   "title": "CredPal Web App",
+        //   "url": "https://app.credpal.com",
+        //   "contributions": [
+        //     "Built using Laravel, Vuejs and Tailwindcss",
+        //     "Involved in the development of the front and backend systems",
+        //     "Constantly improved the app, based on user feedback",
+        //     "Created a component-based system with easily reusable and readable code"
+        //   ]
+        // },
+        // {
+        //   "title": "CredPal POS",
+        //   "url": "https://pos.credpal.com",
+        //   "contributions": [
+        //     "",
+        //     "Web app built using Laravel, Vuejs and Bootstrap",
+        //   ]
+        // }
       ]
     },
     {
@@ -325,15 +342,61 @@ const profile: Profile = {
           "title": "Mighty Data Web App",
           "url": "https://mighty.ng",
           "contributions": [
-            "Made modifications and imporovements to the UI as well as the backend systems.",
-            "Integrated AJAX for api integrations."
+            "A web app made using Laravel and jQuery"
           ]
         },
         {
           "title": "Mighty Interactive Website",
           "url": "https://mightyi.com",
           "contributions": [
-            "Developed a static website for the company."
+            "Landing page website made using Bootstrap and jQuery"
+          ]
+        }
+      ]
+    },
+    {
+      "company": {
+        "name": "Freelance Development",
+        "website": "",
+        "emails": []
+      },
+      "isFreelance": true,
+      "joinedAt": "05-2014",
+      "leftAt": undefined,
+      "positions": [],
+      "projects": [
+        {
+          "title": "[NPM Package] Form validation for VueJs",
+          "url": "https://www.npmjs.com/package/vue3-form",
+          "contributions": [
+            "Form validation",
+            "Made for composition api"
+          ]
+        },
+        {
+          "title": "Trifta",
+          "url": "https://trifta.com",
+          "contributions": [
+            "A landing page website made using Vuejs and Nuxt",
+            "Fully functional PWA",
+            "SEO friendly",
+            "Lightweight and fast"
+          ]
+        },
+        {
+          "title": "Adlantique",
+          "url": "https://adlantique.com",
+          "contributions": [
+            "A landing page website made using Laravel and Vuejs",
+            "SEO friendly"
+          ]
+        },
+        {
+          "title": "[NPM Package] Datatable for Vue and Bootstrap",
+          "url": "https://www.npmjs.com/package/bootstrap-vue-datatable",
+          "contributions": [
+            "Vuejs package for datatable",
+            "Styled using bootstrap"
           ]
         }
       ]
